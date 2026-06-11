@@ -204,11 +204,10 @@ The result: a generated slide where a teacher can still click and fix a Bangla t
 
 | Layer | Technology | Why |
 |---|---|---|
-| **Frontend** | Vanilla HTML5 / CSS3 / ES6+ JavaScript | Zero build step, zero dependencies, loads instantly on school hardware |
+| **Frontend** | Vanilla HTML5 / CSS3 / ES6+ JavaScript | Zero build step, zero dependencies, loads instantly |
 | **Math (browser)** | MathJax 3 (`tex-chtml`) | Faithful in-browser LaTeX preview before generation |
-| **Fonr** | Anek Bangla, Kalpurush, Li Ador Noirrit | First-class Bangla rendering everywhere |
 | **Backend** | Google Apps Script (V8 runtime) | Free, serverless, lives next to the data |
-| **Database** | Google Sheets | Teachers already know it — editing the question bank *is* the admin panel |
+| **Database** | Google Sheets | Leverage Google Sheets as a free backend solution, eliminating hosting costs |
 | **Slides** | Google Slides API (`SlidesApp`) | Template duplication + placeholder substitution |
 | **Math (slides)** | CodeCogs LaTeX rendering service | Crisp 150-DPI transparent equation PNGs |
 | **Auth** | HMAC-SHA256 signed tokens | Stateless, tamper-proof sessions without a session store |
