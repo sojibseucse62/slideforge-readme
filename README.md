@@ -222,7 +222,7 @@ The result: a generated slide where a teacher can still click and fix a Bangla t
 - A Google Slides file whose **first slide is your design template**, containing the placeholders:
   `{{Confidential}}`
 
-### 1️⃣ Deploy the Backend
+### Deploy the Backend
 
 ```text
 1. Open your Google Sheet → Extensions → Apps Script
@@ -234,17 +234,13 @@ The result: a generated slide where a teacher can still click and fix a Bangla t
 5. Copy the /exec deployment URL
 ```
 
-### 2️⃣ Wire Up the Frontend
+### Wire Up the Frontend
 
 ```js
 const CFG = { apiUrl: 'PASTE_YOUR_DEPLOYMENT_URL_HERE' };
 ```
 
-### 3️⃣ Host the Frontend
-
-Drop `index.html`, `style.css`, and `script.js` on **GitHub Pages**, **Netlify**, **Vercel** — or just open `index.html` locally. No build step. No `npm install`. It just runs.
-
-### 4️⃣ Add Teachers
+### Add Teachers
 
 Fill the `User_Info` sheet:
 
