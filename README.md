@@ -253,7 +253,7 @@ Fill the `User_Info` sheet:
 
 ## 🗃️ Data Model
 
-**`Dashboard` sheet (the question bank)** — one row per MCQ:
+**`Google Sheet` (the question bank)** — one row per MCQ:
 
 ```
 Class │ Subject │ Segment │ Chapter │ Topic │ Reference │ SI │ type │ title │ image
