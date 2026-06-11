@@ -238,7 +238,6 @@ The result: a generated slide where a teacher can still click and fix a Bangla t
 ### 2️⃣ Wire Up the Frontend
 
 ```js
-// script.js — line ~48
 const CFG = { apiUrl: 'PASTE_YOUR_DEPLOYMENT_URL_HERE' };
 ```
 
